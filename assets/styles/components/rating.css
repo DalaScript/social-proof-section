@@ -34,3 +34,17 @@
         margin-top: 0;
     }
 }
+
+@media (min-width: 1440px) {
+    .rating { 
+        width: calc(100% - 96px);
+    }
+
+    .rating:nth-child(2) {
+        margin: 0 auto;
+    }
+
+    .rating:nth-child(3) {
+        margin-left: auto;
+    }
+}

@@ -97,3 +97,52 @@ main {
         font-size: 3.5rem;
     }
 }
+
+@media (min-width: 1440px) {
+    main {
+        padding: 116px 165px;
+        height: 100vh;
+    }
+
+    .social-proof__bg-img--top {
+        width: 482px;
+        height: 362px;
+    }
+
+    .social-proof__bg-img--bottom {
+        width: 1085px;
+        height: 673px;
+    }
+
+    .social-proof__intro {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social-proof__intro-text {
+        flex-basis: 445px;
+    }
+
+    .social-proof__title {
+        text-align: left;
+    }
+
+    .social-proof__description {
+        text-align: left;
+        margin: 16px 0 0;
+    }
+
+    .social-proof__ratings {
+        margin: 0;
+        flex-basis: 542px;
+    }
+
+    .social-proof__testimonials {
+        margin: 4rem 0 0;
+        height: 256px;
+
+        flex-direction: row;
+        gap: 1.875rem;
+    }
+}

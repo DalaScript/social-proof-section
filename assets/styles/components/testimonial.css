@@ -54,3 +54,19 @@
         max-height: 224px;
     }
 }
+
+@media (min-width: 1440px) {
+    .testimonial {
+        padding: 32px;
+        height: calc(100% - 32px);
+        flex: 1;
+    }
+
+    .testimonial:nth-child(2) {
+        margin: auto 0;
+    }
+    
+    .testimonial:nth-child(3) {
+        margin-top: auto;
+    }
+}
