@@ -1,0 +1,23 @@
+.rating {
+    max-height: 78px;
+    padding: 14.61px 0;
+    border-radius: 8px;
+    background-color: var(--purple-100);
+}
+
+.rating__stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.rating__text {
+    margin-top: 16px;
+
+    font-size: 1.0625rem;
+    font-weight: 700;
+    line-height: 1.0625rem;
+    text-align: center;
+    color: var(--purple-900);
+}
