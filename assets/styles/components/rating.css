@@ -9,15 +9,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .rating__text {
-    margin-top: 16px;
+    margin-top: 1rem;
 
     font-size: 1.0625rem;
     font-weight: 700;
     line-height: 1.0625rem;
     text-align: center;
     color: var(--purple-900);
+}
+
+@media (min-width: 768px) {
+    .rating {
+        padding: 1rem 2.21875rem;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .rating__text {
+        margin-top: 0;
+    }
 }
