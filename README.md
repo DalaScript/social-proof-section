@@ -36,8 +36,8 @@ Users should be able to:
 
 ### 🔗 Links
 
-  - [🔴 Live Demo](https://github.com/DalaScript/social-proof-section)
-  - [🗂️ GitHub Repository](https://DalaScript.github.io/social-proof-section/)
+  - [🔴 Live Demo](https://DalaScript.github.io/social-proof-section/)
+  - [🗂️ GitHub Repository](https://github.com/DalaScript/social-proof-section)
 
 ### 🛠️ Built with
 
